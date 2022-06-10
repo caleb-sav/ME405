@@ -117,7 +117,8 @@ def move(draw, vals):
     :param vals: The .hpgl row that contains the points for the shape.
     :type vals: string
     
-    :return shape: A list of the form [Pen up/down value, X values, Y values].
+    :return: A list of the form [Pen up/down value, X values, Y values].
+    :rtype:  list
     """
     x = []
     y = []
